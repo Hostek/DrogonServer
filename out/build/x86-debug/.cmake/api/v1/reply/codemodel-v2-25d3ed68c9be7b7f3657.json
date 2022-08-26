@@ -1,0 +1,76 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "DrogonServer",
+					"jsonFile" : "directory-DrogonServer-Debug-e618410aa12032ef32cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DrogonServer",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "DrogonServer",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "DrogonServer::@deee696846b579e58832",
+					"jsonFile" : "target-DrogonServer-Debug-87de9d1a138050911327.json",
+					"name" : "DrogonServer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/micha/Desktop/Projects/CPP/DrogonServer/out/build/x86-debug",
+		"source" : "C:/Users/micha/Desktop/Projects/CPP/DrogonServer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
