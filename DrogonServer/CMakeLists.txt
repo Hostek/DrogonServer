@@ -4,7 +4,7 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable.
-add_executable (DrogonServer "DrogonServer.cpp" "DrogonServer.h"  "pages/Home/HomePageController.cpp" "pages/JSON/JsonController.cpp" "pages/DB/DbController.h" "pages/DB/DbController.cpp" )
+add_executable (DrogonServer "DrogonServer.cpp" "DrogonServer.h"  "pages/Home/HomePageController.cpp" "pages/JSON/JsonController.cpp" "pages/DB/DbController.h" "pages/DB/DbController.cpp"  "DbConfig.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET DrogonServer PROPERTY CXX_STANDARD 20)
