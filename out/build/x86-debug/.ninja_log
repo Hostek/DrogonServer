@@ -1,4 +1,7 @@
 # ninja log v5
-5	3204	6833131142619960	DrogonServer/CMakeFiles/DrogonServer.dir/DrogonServer.cpp.obj	d45c2ed7d26e6b6b
-1	3210	6833131142619960	DrogonServer/CMakeFiles/DrogonServer.dir/pages/Home/HomePageController.cpp.obj	cb4fb51a605db252
-3211	4509	6833131146442291	DrogonServer/DrogonServer.exe	ab506be499855f29
+5	3352	6833140772927045	DrogonServer/CMakeFiles/DrogonServer.dir/pages/Home/HomePageController.cpp.obj	cb4fb51a605db252
+8	3357	6833140772927045	DrogonServer/CMakeFiles/DrogonServer.dir/pages/JSON/JsonController.cpp.obj	c35559f517ca1e02
+1	3512	6833140774576652	DrogonServer/CMakeFiles/DrogonServer.dir/DrogonServer.cpp.obj	d45c2ed7d26e6b6b
+3512	4935	6833140778740663	DrogonServer/DrogonServer.exe	9eb63ad5aa7c062e
+2	3032	6833141151971361	DrogonServer/CMakeFiles/DrogonServer.dir/pages/JSON/JsonController.cpp.obj	c35559f517ca1e02
+3033	4036	6833141153624542	DrogonServer/DrogonServer.exe	9eb63ad5aa7c062e

@@ -16,6 +16,4 @@ public:
             "controller");
         callback(res);
     }
-
-    
 };
