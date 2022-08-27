@@ -25,7 +25,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x86-debug/CMakeFiles/3.22.22040401-MSVC_2/CMakeSystem.cmake"
+			"path" : "out/build/x86-release/CMakeFiles/3.22.22040401-MSVC_2/CMakeSystem.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -268,7 +268,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x86-debug/CMakeFiles/3.22.22040401-MSVC_2/CMakeCCompiler.cmake"
+			"path" : "out/build/x86-release/CMakeFiles/3.22.22040401-MSVC_2/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -492,7 +492,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x86-debug/CMakeFiles/3.22.22040401-MSVC_2/CMakeCXXCompiler.cmake"
+			"path" : "out/build/x86-release/CMakeFiles/3.22.22040401-MSVC_2/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -561,7 +561,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x86-debug/CMakeFiles/3.22.22040401-MSVC_2/CMakeRCCompiler.cmake"
+			"path" : "out/build/x86-release/CMakeFiles/3.22.22040401-MSVC_2/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -635,7 +635,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x86-debug/CMakeFiles/3.22.22040401-MSVC_2/CMakeCCompiler.cmake"
+			"path" : "out/build/x86-release/CMakeFiles/3.22.22040401-MSVC_2/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -729,7 +729,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x86-debug/CMakeFiles/3.22.22040401-MSVC_2/CMakeCXXCompiler.cmake"
+			"path" : "out/build/x86-release/CMakeFiles/3.22.22040401-MSVC_2/CMakeCXXCompiler.cmake"
 		},
 		{
 			"path" : "DrogonServer/CMakeLists.txt"
@@ -989,7 +989,7 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/micha/Desktop/Projects/CPP/DrogonServer/out/build/x86-debug",
+		"build" : "C:/Users/micha/Desktop/Projects/CPP/DrogonServer/out/build/x86-release",
 		"source" : "C:/Users/micha/Desktop/Projects/CPP/DrogonServer"
 	},
 	"version" : 

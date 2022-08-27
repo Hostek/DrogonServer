@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/brotlicommon.lib"
+			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/brotlicommon.lib"
 		},
 		{
 			"name" : "BROTLIDEC_LIBRARY",
@@ -23,7 +23,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/brotlidec.lib"
+			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/brotlidec.lib"
 		},
 		{
 			"name" : "BROTLIENC_LIBRARY",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/brotlienc.lib"
+			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/brotlienc.lib"
 		},
 		{
 			"name" : "BROTLI_INCLUDE_DIR",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/cares.lib"
+			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/cares.lib"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -107,7 +107,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -119,7 +119,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/micha/Desktop/Projects/CPP/DrogonServer/out/build/x86-debug"
+			"value" : "c:/Users/micha/Desktop/Projects/CPP/DrogonServer/out/build/x86-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/micha/Desktop/Projects/CPP/DrogonServer/out/install/x86-debug"
+			"value" : "C:/Users/micha/Desktop/Projects/CPP/DrogonServer/out/install/x86-release"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1255,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/micha/Desktop/Projects/CPP/DrogonServer/out/build/x86-debug"
+			"value" : "C:/Users/micha/Desktop/Projects/CPP/DrogonServer/out/build/x86-release"
 		},
 		{
 			"name" : "DrogonServer_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/brotlidec.lib][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/brotlienc.lib][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/brotlicommon.lib][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/include][v()]"
+			"value" : "[C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/brotlidec.lib][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/brotlienc.lib][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/brotlicommon.lib][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/include][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Jsoncpp",
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/include][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/jsoncpp.lib][v()]"
+			"value" : "[C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/include][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/jsoncpp.lib][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL",
@@ -1363,7 +1363,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/include][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/cares.lib][v()]"
+			"value" : "[C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/include][C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/cares.lib][v()]"
 		},
 		{
 			"name" : "Filesystem_FOUND",
@@ -1407,7 +1407,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/debug/lib/jsoncpp.lib"
+			"value" : "C:/Users/micha/Documents/sdk/vcpkg/installed/x86-windows/lib/jsoncpp.lib"
 		},
 		{
 			"name" : "LIB_EAY_DEBUG",
