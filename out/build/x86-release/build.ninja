@@ -93,6 +93,22 @@ build DrogonServer\CMakeFiles\DrogonServer.dir\pages\Home\HomePageController.cpp
   TARGET_COMPILE_PDB = DrogonServer\CMakeFiles\DrogonServer.dir\
   TARGET_PDB = DrogonServer\DrogonServer.pdb
 
+build DrogonServer\CMakeFiles\DrogonServer.dir\pages\JSON\JsonController.cpp.obj: CXX_COMPILER__DrogonServer_Release C$:\Users\micha\Desktop\Projects\CPP\DrogonServer\DrogonServer\pages\JSON\JsonController.cpp || cmake_object_order_depends_target_DrogonServer
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG /wd4251 /wd4275 -std:c++20
+  INCLUDES = -external:I C:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\include -external:W0
+  OBJECT_DIR = DrogonServer\CMakeFiles\DrogonServer.dir
+  OBJECT_FILE_DIR = DrogonServer\CMakeFiles\DrogonServer.dir\pages\JSON
+  TARGET_COMPILE_PDB = DrogonServer\CMakeFiles\DrogonServer.dir\
+  TARGET_PDB = DrogonServer\DrogonServer.pdb
+
+build DrogonServer\CMakeFiles\DrogonServer.dir\pages\DB\DbController.cpp.obj: CXX_COMPILER__DrogonServer_Release C$:\Users\micha\Desktop\Projects\CPP\DrogonServer\DrogonServer\pages\DB\DbController.cpp || cmake_object_order_depends_target_DrogonServer
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG /wd4251 /wd4275 -std:c++20
+  INCLUDES = -external:I C:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\include -external:W0
+  OBJECT_DIR = DrogonServer\CMakeFiles\DrogonServer.dir
+  OBJECT_FILE_DIR = DrogonServer\CMakeFiles\DrogonServer.dir\pages\DB
+  TARGET_COMPILE_PDB = DrogonServer\CMakeFiles\DrogonServer.dir\
+  TARGET_PDB = DrogonServer\DrogonServer.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DrogonServer
@@ -101,7 +117,7 @@ build DrogonServer\CMakeFiles\DrogonServer.dir\pages\Home\HomePageController.cpp
 #############################################
 # Link the executable DrogonServer\DrogonServer.exe
 
-build DrogonServer\DrogonServer.exe: CXX_EXECUTABLE_LINKER__DrogonServer_Release DrogonServer\CMakeFiles\DrogonServer.dir\DrogonServer.cpp.obj DrogonServer\CMakeFiles\DrogonServer.dir\pages\Home\HomePageController.cpp.obj | C$:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\lib\drogon.lib C$:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\lib\trantor.lib C$:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\lib\jsoncpp.lib
+build DrogonServer\DrogonServer.exe: CXX_EXECUTABLE_LINKER__DrogonServer_Release DrogonServer\CMakeFiles\DrogonServer.dir\DrogonServer.cpp.obj DrogonServer\CMakeFiles\DrogonServer.dir\pages\Home\HomePageController.cpp.obj DrogonServer\CMakeFiles\DrogonServer.dir\pages\JSON\JsonController.cpp.obj DrogonServer\CMakeFiles\DrogonServer.dir\pages\DB\DbController.cpp.obj | C$:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\lib\drogon.lib C$:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\lib\trantor.lib C$:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\lib\jsoncpp.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
   LINK_FLAGS = /machine:X86 /INCREMENTAL:NO /subsystem:console
   LINK_LIBRARIES = C:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\lib\drogon.lib  Rpcrt4.lib  ws2_32.lib  crypt32.lib  Advapi32.lib  C:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\lib\trantor.lib  C:\Users\micha\Documents\sdk\vcpkg\installed\x86-windows\lib\jsoncpp.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
