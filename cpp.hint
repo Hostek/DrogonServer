@@ -4,6 +4,6 @@
 #define PATH_LIST_BEGIN static void initPathRouting() {
 #define PATH_ADD(path, __VA_ARGS__) registerSelf__(path, {__VA_ARGS__});
 #define PATH_LIST_END }
-#define METHOD_ADD(method, pattern, __VA_ARGS__) registerMethod(&method, pattern, {__VA_ARGS__}, true, #method)
 #define METHOD_LIST_BEGIN static void initPathRouting() {
+#define METHOD_ADD(method, pattern, __VA_ARGS__) registerMethod(&method, pattern, {__VA_ARGS__}, true, #method)
 #define METHOD_LIST_END return; }
