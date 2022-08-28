@@ -9,6 +9,7 @@ namespace db {
 		unsigned short port = 3306;
 		std::string db_name = "drogon_server";
 		std::string username = "root";
+		// In the real aplication you don't want to expose your password!
 		std::string password = "isthispasswordWEAK?-Hostek123h";
 		size_t connectionNum = 1;
 	}
