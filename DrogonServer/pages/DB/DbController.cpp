@@ -19,7 +19,7 @@ void DB::get(
             auto const row = r[i];
             obj["results"][i] = row["text"].as<std::string>();
         }
-        
+
     } >> [&](const drogon::orm::DrogonDbException& e) {
         std::cerr << e.base().what() << std::endl;
         obj["error"] = e.base().what();
@@ -42,6 +42,33 @@ void DB::post(
         [&](const drogon::orm::Result& r) {
 
         obj["result"] = r.affectedRows();
+    } >> [&](const drogon::orm::DrogonDbException& e) {
+        std::cerr << e.base().what() << std::endl;
+        obj["error"] = e.base().what();
+    };
+
+    auto res = drogon::HttpResponse::newHttpJsonResponse(obj);
+    callback(res);
+}
+
+void DB::getById(const drogon::HttpRequestPtr& req,
+    std::function<void(const drogon::HttpResponsePtr&)>&& callback,
+    std::string param
+) {
+    Json::Value obj;
+
+    auto clientPtr = drogon::app().getDbClient();
+
+    *clientPtr << "SELECT text FROM test WHERE id = ?" << param << drogon::orm::Mode::Blocking >>
+        [&](const drogon::orm::Result& r) {
+
+        if (r.size() > 0) {
+            obj["result"] = r[0]["text"].as<std::string>();
+        }
+        else {
+            obj["error"] = "404";
+        }
+
     } >> [&](const drogon::orm::DrogonDbException& e) {
         std::cerr << e.base().what() << std::endl;
         obj["error"] = e.base().what();
