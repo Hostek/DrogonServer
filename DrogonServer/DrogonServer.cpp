@@ -15,6 +15,11 @@ int main() {
         db::Config::connectionNum
     );
 
+    app().registerPostHandlingAdvice(
+        [](const drogon::HttpRequestPtr& req, const drogon::HttpResponsePtr& resp) {
+            resp->addHeader("Access-Control-Allow-Origin", "http://localhost:5505");
+        });
+
     std::cout << "Server is running on 127.0.0.1:" << PORT << std::endl;
 
     app().addListener("127.0.0.1", PORT).run();
