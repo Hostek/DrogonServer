@@ -2,8 +2,8 @@
 
 #include <iostream>
 
-namespace db {
-	namespace Config {
+namespace Config {
+	namespace db {
 		std::string type = "mysql";
 		std::string host = "127.0.0.1";
 		unsigned short port = 3306;

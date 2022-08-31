@@ -6,13 +6,13 @@ int main() {
     using namespace drogon;
 
     app().createDbClient(
-        db::Config::type,
-        db::Config::host,
-        db::Config::port,
-        db::Config::db_name,
-        db::Config::username,
-        db::Config::password,
-        db::Config::connectionNum
+        Config::db::type,
+        Config::db::host,
+        Config::db::port,
+        Config::db::db_name,
+        Config::db::username,
+        Config::db::password,
+        Config::db::connectionNum
     );
 
     app().registerPostHandlingAdvice(
