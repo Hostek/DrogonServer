@@ -1,9 +1,9 @@
 ﻿#include "DrogonServer.h"
 
+constexpr short PORT = 8848;
+
 int main() {
     using namespace drogon;
-
-    std::cout << "Server is running on 127.0.0.1:8848" << std::endl;
 
     app().createDbClient(
         db::Config::type,
@@ -15,7 +15,9 @@ int main() {
         db::Config::connectionNum
     );
 
-    app().addListener("127.0.0.1", 8848).run();
+    std::cout << "Server is running on 127.0.0.1:" << PORT << std::endl;
+
+    app().addListener("127.0.0.1", PORT).run();
 
 	return 0;
 }
