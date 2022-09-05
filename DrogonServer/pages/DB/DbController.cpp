@@ -77,3 +77,27 @@ void DB::getById(const drogon::HttpRequestPtr& req,
     auto res = drogon::HttpResponse::newHttpJsonResponse(obj);
     callback(res);
 }
+
+// param1 -> id; param2 -> value to update
+void DB::updateById(const drogon::HttpRequestPtr& req,
+    std::function<void(const drogon::HttpResponsePtr&)>&& callback,
+    std::string param1,
+    std::string param2
+) {
+    Json::Value obj;
+
+    auto clientPtr = drogon::app().getDbClient();
+
+    *clientPtr << "UPDATE test SET text = ? WHERE id = ?" << param2 << param1 << drogon::orm::Mode::Blocking >>
+        [&](const drogon::orm::Result& r) {
+
+        obj["result"] = "Success!"; 
+
+    } >> [&](const drogon::orm::DrogonDbException& e) {
+        std::cerr << e.base().what() << std::endl;
+        obj["error"] = e.base().what();
+    };
+
+    auto res = drogon::HttpResponse::newHttpJsonResponse(obj);
+    callback(res);
+}
