@@ -101,3 +101,24 @@ void DB::updateById(const drogon::HttpRequestPtr& req,
     auto res = drogon::HttpResponse::newHttpJsonResponse(obj);
     callback(res);
 }
+
+void DB::deleteById(const drogon::HttpRequestPtr& req,
+    std::function<void(const drogon::HttpResponsePtr&)>&& callback,
+    std::string param) {
+    Json::Value obj;
+
+    auto clientPtr = drogon::app().getDbClient();
+
+    *clientPtr << "DELETE FROM test WHERE id = ?" << param << drogon::orm::Mode::Blocking >>
+        [&](const drogon::orm::Result& r) {
+
+        obj["result"] = "Success!";
+
+    } >> [&](const drogon::orm::DrogonDbException& e) {
+        std::cerr << e.base().what() << std::endl;
+        obj["error"] = e.base().what();
+    };
+
+    auto res = drogon::HttpResponse::newHttpJsonResponse(obj);
+    callback(res);
+}
